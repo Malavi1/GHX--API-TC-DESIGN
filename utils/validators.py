@@ -9,3 +9,4 @@ def validate_user_schema(user):
     assert "name" in user
     assert "email" in user
     assert "password" in user
+    
