@@ -21,3 +21,4 @@ class UsersAPI:
 
     def delete_user(self, user_id):
         return self.client.delete(f"{BASE_URL}/users/{user_id}")
+    
