@@ -79,3 +79,4 @@ def test_get_users_performance(api_context):
 
     assert response.status == 200
     assert response_time < 2000, f"Slow API! Took {response_time} ms"
+    
