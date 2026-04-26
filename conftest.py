@@ -9,3 +9,4 @@ def api_context(playwright: Playwright):
     yield request_context
 
     request_context.dispose()  # cleanup after all tests finish
+
